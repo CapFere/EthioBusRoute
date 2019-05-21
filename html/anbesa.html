@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../ionicons/css/ionicons.css">
+    <link rel="icon" type="image/png" href="../icon/pipi.png"> 
+    <link rel="stylesheet" type="text/css" href="../css/home.css">
+    <link rel="stylesheet" type="text/css" href="../css/anbesa.css">
+    <script  src="../js/anbesa.js"></script>
+	<title>www.bustroute.com</title>
+</head>
+<body>
+    <div class="head">
+    	 		<img src="../img/new-logo.png" width="200px" height="100px"><!--A place for a logo-->
+          <ul>      
+              <li><a href="../index.html"><i class="ion-android-home"></i></a></li>
+              <li><a href="anbesa.html">Anbesa</a></li>
+              <li><a href="sheger.html">Sheger</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul> 
+    	</div>   
+      <div class="main">
+              <div id="search">
+                    <input type="text" id="numb" maxlength="3" placeholder="bus number">
+                   </div><br>
+                    <div id="mybutton"><button id="button" type="button" onclick="myFunction()">Search</button></div>  
+              </div>
+  <br><br>
+      <div class="js">
+        <table><tr id="demo1"></tr><tr id="demo"></tr></table>
+      </div>          
+    		<div class="main">
+          <div class="table">
+            <table>
+              <tr>
+                <th>Bus number</th>
+                <th>Starting</th>
+                <th>Via</th>
+                <th>Destination</th>
+                <th>Tariff(birr)</th>
+                <th>Distance(km)</th>
+              </tr>
+              <tr>
+                <td>01</td>
+                <td>Megenagna</td>
+                <td>Kotebe</td>
+                <td>kara</td>
+                <td>1.60</td>
+                <td>8.1</td>
+              </tr>
+              <tr>
+                <td>02</td>
+                <td>Merekato</td>
+                <td>Mekanisa</td>
+                <td>Kore</td>
+                <td>2.25</td>
+                <td>11.10</td>
+              </tr>
+              <tr>
+                <td>03</td>
+                <td>Meskele square</td>
+                <td>Total</td>
+                <td>Ayertena</td>
+                <td>2.25</td>
+                <td>10.8</td>
+              </tr>
+              <tr>
+                <td>04</td>
+                <td>Merkato</td>
+                <td>Saris</td>
+                <td>Kaliti</td>
+                <td>3.75</td>
+                <td>19.4</td>
+              </tr>
+              <tr>
+                <td>05</td>
+                <td>Minilik square</td>
+                <td>Mekanisa</td>
+                <td>Kore</td>
+                <td>3.00</td>
+                <td>12.7</td>
+              </tr>
+              <tr>
+                <td>06</td>
+                <td>Semen Gebeya</td>
+                <td>Mexico</td>
+                <td>Kera</td>
+                <td>2.25</td>
+                <td>9.9</td>
+              </tr>
+              <tr>
+                <td>07</td>
+                <td>Megenagna</td>
+                <td>Legetafo</td>
+                <td>Beke</td>
+                <td>9.00</td>
+                <td>44</td>
+              </tr>
+              <tr>
+                <td>08</td>
+                <td>Merekato</td>
+                <td>-</td>
+                <td>Kechene</td>
+                <td>1.60</td>
+                <td>9.4</td>
+              </tr>
+              <tr>
+                <td>09</td>
+                <td>Piassa</td>
+                <td>22 Mazorias</td>
+                <td>Bole h/school</td>
+                <td>2.25</td>
+                <td>10.5</td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>Piassa</td>
+                <td>Lamberet</td>
+                <td>Kotebe</td>
+                <td>3.00</td>
+                <td>12.7</td>
+              </tr>
+              <tr>
+                <td>11</td>
+                <td>kolfe</td>
+                <td>^ killo</td>
+                <td>Minilk hospital</td>
+                <td>2.25</td>
+                <td>10</td>
+              </tr>
+              <tr>
+                <td>12</td>
+                <td>Merkato</td>
+                <td>6 Killo</td>
+                <td>Ferensay</td>
+                <td>2.25</td>
+                <td>9.9</td>
+              </tr>
+              <tr>
+                <td>13</td>
+                <td>Merekato</td>
+                <td>6 Killo</td>
+                <td>Bela</td>
+                <td>2.25</td>
+                <td>9.9</td>
+              </tr>
+              <tr>
+                <td>14</td>
+                <td>Piassa</td>
+                <td>Gotera</td>
+                <td>Saris Abo</td>
+                <td>3.00</td>
+                <td>12.30</td>
+              </tr>
+              <tr>
+                <td>15</td>
+                <td>Merekato</td>
+                <td>Abuare</td>
+                <td>Megenagna</td>
+                <td>2.25</td>
+                <td>10.4</td>
+              </tr>
+              <tr>
+                <td>16</td>
+                <td>Merkato</td>
+                <td>Menen</td>
+                <td>kidane Mihret</td>
+                <td>1.60</td>
+                <td>7.9</td>
+              </tr>
+              <tr>
+                <td>17</td>
+                <td>Merekato</td>
+                <td>Shiromeda</td>
+                <td>Kuskuam</td>
+                <td>2.25</td>
+                <td>9.1</td>
+              </tr>
+              <tr>
+                <td>18</td>
+                <td>Merekato</td>
+                <td>Mesalemiya</td>
+                <td>Keraniyo</td>
+                <td>1.60</td>
+                <td>7.3</td>
+              </tr>
+              <tr>
+                <td>19</td>
+                <td>Piassa</td>
+                <td>-</td>
+                <td>Asco</td>
+                <td>2.25</td>
+                <td>10.5</td>
+              </tr>
+              <tr>
+                <td>20</td>
+                <td>Merekato</td>
+                <td>Rufael</td>
+                <td>Dilbere</td>
+                <td>1.60</td>
+                <td>8.6</td>
+              </tr>
+              <tr>
+                <td>21</td>
+                <td>Merekato</td>
+                <td>Lukanda</td>
+                <td>Fildoro</td>
+                <td>1.60</td>
+                <td>8.6</td>
+              </tr>
+              <tr>
+                <td>22</td>
+                <td>Legehare</td>
+                <td>CMC</td>
+                <td>Sumit</td>
+                <td>3.00</td>
+                <td>12.3</td>
+              </tr>
+              <tr>
+                <td>23</td>
+                <td>Merekato</td>
+                <td>Megenagna</td>
+                <td>Lamberet</td>
+                <td>3.00</td>
+                <td>12.4</td>
+              </tr>
+              <tr>
+                <td>24</td>
+                <td>Merekato</td>
+                <td>Asco</td>
+                <td>Burayu</td>
+                <td>2.75</td>
+                <td>17.4</td>
+              </tr>
+              <tr>
+                <td>25</td>
+                <td>Legehar</td>
+                <td>Saris</td>
+                <td>Akaki</td>
+                <td>3.50</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>26</td>
+                <td>Merekato</td>
+                <td>Ayertena</td>
+                <td>Sebeta</td>
+                <td>5.50</td>
+                <td>25.5</td>
+              </tr>
+              <tr>
+                <td>27</td>
+                <td>Legehar</td>
+                <td>Saris Abo</td>
+                <td>Koriki Factorr</td>
+                <td>2.25</td>
+                <td>11.4</td>
+              </tr>
+              <tr>
+                <td>28</td>
+                <td>Merkato</td>
+                <td>Tayiwan</td>
+                <td>Asco Sansusi</td>
+                <td>2.25</td>
+                <td>11.1</td>
+              </tr>
+              <tr>
+                <td>29</td>
+                <td>Merekato</td>
+                <td>Gotera</td>
+                <td>Adisu Sefer</td>
+                <td>3.00</td>
+                <td>12.7</td>
+              </tr>
+              <tr>
+                <td>30</td>
+                <td>Merekato</td>
+                <td>-</td>
+                <td>Sululita</td>
+                <td>5.50</td>
+                <td>30.0</td>
+              </tr>
+
+               <tr><td>31</td><td>Legahar</td><td>6 kilo</td><td>shiro medan</td><td>1.60 </td><td>7.40</td></tr>
+        
+               <tr><td>32</td><td>Legahar</td><td>Megenaga</td><td>Hana mariam</td><td>2.25 </td><td>10.60</td></tr>
+        
+               <tr><td>33</td><td>4 kilo</td><td>lamberet</td><td>Kotebe Gebriel</td><td>2.25 </td><td>11.40</td></tr>
+         
+               <tr><td>34</td><td>Merkato</td><td>Kera</td><td>Gofa camp</td><td>2.25 </td><td>9.80</td></tr>
+          
+               <tr><td>35</td><td>Merkato</td><td>Cherkos</td><td>Lafto Adebabay</td><td>2.25 </td><td>9.80</td></tr>
+
+               <tr><td>36</td><td>Legahar</td><td>Ayer Tena</td><td>Kara Kore</td><td>2.25 </td><td>11.7</td></tr>
+
+               <tr><td>37</td><td>Meskel Adebabay</td><td>Tor Hailoch</td><td>Keranyo medan</td><td>2.25 </td><td>12.0</td></tr>
+
+               <tr><td>38</td><td>6 kilo</td><td>Giorgis</td><td>Gofa camp</td><td>2.25 </td><td>12.0</td></tr>
+          
+               <tr><td>39</td><td>Merkato</td><td>Kazanchis</td><td>Bole medhanialem</td><td>2.25 </td><td>9.60</td></tr>
+
+               <tr><td>40</td><td>Merkato</td><td>Kotebe</td><td>Kara Alo</td><td>3.00 </td><td>17.9</td></tr>
+            </table>
+          </div>     
+			</div>
+      <br><br>
+      <div id="next">
+        <a href="anbesa2.html" style="font-size:50px;"><i  class="ion-ios-arrow-right"></i><i  class="ion-ios-arrow-right"></i></a>      
+      </div><br><br>
+     	<footer>
+      		<ol>
+      			<h3>Let's connect</h3>
+		           	        <a href="www.facebook.com"><li><i  class="ion-social-facebook"></i></li></a>
+                        <a href="www.instagram.com"><li><i  class="ion-social-instagram"></i></li></a>
+                        <a href="www.pintrest.com"><li><i class="ion-social-pinterest"></i></li></a>
+                        <a href="www.googleplus.com"><li><i  class="ion-social-googleplus"></i></li></a>
+          </ol>
+          <p style="color: #fff; text-align: center;"><a href="copyright.html">Bust route Copyright 2017 All Right reserved<a></p>
+    	</footer>
+</body>
+</html>

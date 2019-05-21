@@ -1,0 +1,88 @@
+.main{
+	margin-top: 10%
+}
+#search{
+	width: 40%;
+	margin:auto;
+}
+/*-------------------Serch box---------------------*/
+#mybutton{
+	width: 20%;
+	display: block;
+	margin-left: 40%;
+}
+#button{
+	width: 60%;
+	padding: 5%;
+	font-size:16px;
+	padding: 10px;
+	border:0px;
+	background-color:#4CAF51;
+	color: #fff;
+	transition-duration: 0.4s;
+}
+#button:hover{
+	background-color: #daf1de;
+	color: #4CAF51;
+	cursor: pointer;
+	box-shadow: 0px 8px 12px 0px rgba(0,0,0,0.4);
+}
+input[type=text] {
+
+    width: 50%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 35px;
+    background-color: white;
+    background-image: url("../icon/searchicon.png");
+    background-size: 30px 30px;
+    background-position: 10px 12px; 
+    background-repeat: no-repeat;
+    padding: 8px 20px 8px 45px;
+    transition: width 0.4s ease-in-out;
+}
+input[type=text]:focus {
+    width: 60%;
+}
+table{
+	width: 1000px;
+	margin:auto;
+	border-collapse: collapse;
+}
+td,th{
+	width:300px;
+	text-align: left;
+	padding:8px;
+}
+th{
+	background-color: #4caf50;
+	padding:10px;
+	color:#fff;
+}
+tr:nth-child(even){
+	background-color: #f2f2f2
+}
+tr:hover{
+	background-color: #4caf50;
+	opacity: 0.8;
+}
+#next{
+	font-size: 80px;
+	text-align: center;
+	width:100px;
+	height:100px;
+	margin:auto;
+	background-color: #fff;
+	border-radius: 50%;
+}
+#next>a>i{
+	color: black;
+}
+#next:hover{
+	cursor: pointer;
+}
+#next:hover a>i{
+	font-size: 70px
+}
+
